@@ -147,3 +147,20 @@ footer {
     margin: 12px;
     padding: 20px 0 20px 0;
 }
+
+@media (max-width: 768px) {
+   .three-columns {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .sedans-box {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .luxury-box {
+        border-radius: 0 0 7px 7px;
+    }
+}
