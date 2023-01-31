@@ -1,0 +1,122 @@
+:root { 
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --bckgrnd-hdngs-btns: hsl(0, 0%, 95%);
+    --font-400-lexend: 'Lexend Deca', sans-serif;
+    --font-700-bigsoulders: 'Big Shoulders Display', cursive;
+    --Mobile: 375px;
+    --Desktop: 1440px;
+}
+
+body {
+    background-color: var(--bckgrnd-hdngs-btns);
+    font-family: var(--font-400-lexend);
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: auto;
+}
+
+article {
+    max-width: 278px;
+    height: 500px;
+    padding: 42px;
+}
+
+.sedans-box {
+    background-color: var(--Brightorange);
+    color: var(--paragraphs);
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 7px 0 0 7px;
+}
+
+.sedans-box > h1 {
+    font-family: var(--font-700-bigsoulders);
+    color: var(--bckgrnd-hdngs-btns);   
+    font-size: 50px;
+}
+
+.suv-box {
+    background-color: var(--Darkcyan);
+    color: var(--paragraphs);
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 0 0 0;    
+}
+
+.suv-box > h1 {
+    font-family: var(--font-700-bigsoulders);
+    color: var(--bckgrnd-hdngs-btns);
+    font-size: 50px;
+}
+
+.luxury-box {
+    background-color: var(--Verydarkcyan);
+    color: var(--paragraphs);
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 7px 7px 0px;
+}
+
+.luxury-box > h1 {
+    font-family: var(--font-700-bigsoulders);
+    color: var(--bckgrnd-hdngs-btns);
+    font-size: 50px;
+}
+
+.learn-more1 {
+    font-family: var(--font-700-lexend);
+    color: var(--Brightorange);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.learn-more2 {
+
+    font-family: var(--font-700-lexend);
+    color: var(--Darkcyan);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.learn-more3 {
+
+    font-family: var(--font-700-lexend);
+    color: var(--Verydarkcyan);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+.attribution a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin: 12px;
+    padding: 20px 0 20px 0;
+}
